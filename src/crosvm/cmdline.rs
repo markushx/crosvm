@@ -680,7 +680,7 @@ pub struct UsbDetachCommand {
 }
 
 #[derive(FromArgs)]
-/// Detach usb device
+/// List attached usb devices
 #[argh(subcommand, name = "list")]
 pub struct UsbListCommand {
     #[argh(positional, arg_name = "VM_SOCKET")]
